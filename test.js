@@ -14,8 +14,8 @@ try {
   // 4. Withdraw more than balance → should throw
   assert.throws(() => withdraw(20, 50), /Insufficient/);
 
-  // 5. FORCE A FAILURE (assignment requirement)
-  assert.strictEqual(deposit(10, 10), 999); // WRONG ON PURPOSE
+//   // 5. FORCE A FAILURE (assignment requirement)
+//   assert.strictEqual(deposit(10, 10), 999); // WRONG ON PURPOSE
 
   console.log("All tests passed!");
 } catch (error) {
